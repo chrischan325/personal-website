@@ -1,0 +1,65 @@
+body{
+  background-color: #343148;
+}
+
+
+#header{
+  margin-top: 13rem;
+}
+
+.text{
+  margin-top: 20px;
+}
+
+#intro{
+  display: flex;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 60px;
+  color: #D7C49E;
+}
+
+#name{
+
+  font-family: 'Work Sans', sans-serif;
+  font-size: 60px;
+  color: #D7C49E;
+}
+
+.icons{
+  display: flex;
+  position: relative;
+}
+
+.description{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    color: #D7C49E;
+}
+
+img {
+  border-radius: 50%;
+  max-width: 100%;
+  padding: 20px;
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  #intro{
+    
+  }
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+  .description{
+    padding-right: 5rem;
+
+  }
+}
+
